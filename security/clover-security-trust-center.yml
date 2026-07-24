@@ -1,0 +1,17 @@
+generated: '2026-07-18'
+method: searched
+probe: true
+source: https://trust.clover.security/
+url: https://trust.clover.security/
+certifications:
+- SOC 2 Type 2
+frameworks:
+- CAIQ Lite
+responsible_disclosure: listed (no public contact/bounty published)
+evidence:
+- source: https://trust.clover.security/
+  keywords:
+  - soc 2 type 2
+  - caiq lite
+  - responsible disclosure
+  - trust center

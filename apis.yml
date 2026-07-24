@@ -1,8 +1,15 @@
 aid: clover-security
 name: Clover Security
-description: 'Clover Security is a company surfaced as a portfolio company of ggv-capital and added to
-  the API Evangelist network as a stub for enrichment. Sector: security. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Clover Security is a Tel Aviv-based product security company (founded 2023)
+  that builds design-led AI security agents for the software development lifecycle. Its
+  agents plug into the tools engineering teams already use — GitHub, Cursor, Confluence,
+  Jira, and Slack — to automate security design reviews, run continuous threat modeling,
+  detect design-to-implementation drift, and keep agentic and spec-driven development
+  secure by default. Clover has raised $36M from Notable Capital, Team8, and Silicon
+  Valley CISO Investments, serving enterprise, fintech, and banking customers including
+  Lemonade, Plaid, Notion, Udemy, and ServiceTitan. This profile was surfaced as a
+  portfolio company of ggv-capital and enriched from the company''s public web surface;
+  Clover exposes no public developer API at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/clover-security/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +17,29 @@ x-backed-by:
 - ggv-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://clover.security/wp-content/uploads/2026/02/home-og-clover.jpg
 tags:
 - Company
 - Security
+- Product Security
+- Application Security
+- Artificial Intelligence
+- DevSecOps
+- Threat Modeling
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,26 @@ maintainers:
 common:
 - type: Website
   url: https://clover.security/
+- type: Platform
+  url: https://clover.security/platform/
+- type: Blog
+  url: https://clover.security/blog
+- type: Support
+  url: https://clover.security/contact
+- type: TermsOfService
+  url: https://clover.security/terms-of-use
+- type: PrivacyPolicy
+  url: https://clover.security/privacy-policy
+- type: TrustCenter
+  url: security/clover-security-trust-center.yml
+- type: Compliance
+  url: https://trust.clover.security/
+- type: GitHubOrganization
+  url: https://github.com/clover-security
+- type: DomainSecurity
+  url: security/clover-security-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
